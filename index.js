@@ -60,10 +60,10 @@ function incrementGuestScore(num){
 
 function leader(){
     if(homeScore > guestScore){
-        leadingTeamEL.textContent = "The Home team is leading!" 
+        leadingTeamEL.textContent = "Team A is leading!" 
     }
     else if(homeScore < guestScore){
-        leadingTeamEL.textContent = "The Guest team is leading!" 
+        leadingTeamEL.textContent = "Team B is leading!" 
     }
     else{
         leadingTeamEL.textContent = "It's a draw!" 
